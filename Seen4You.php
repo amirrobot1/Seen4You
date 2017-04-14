@@ -1,9 +1,9 @@
 <?php 
 
-define('BOT_TOKEN','توکن خودتونو اینجا بزارید');
+define('BOT_TOKEN','306521890:AAFeUlLiftTBxrpQ80l5HWAEnycY-ltlc_M');
 define('API_TELEGRAM','https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
-$channel = 'ایدی چنل
+$channel = ' @unknown_crack
 ';
 
 $json = file_get_contents('php://input');
