@@ -1,9 +1,9 @@
 <?php 
 
-define('BOT_TOKEN','توکن خودتونو اینجا بزارید');
+define('BOT_TOKEN','306521890:AAFeUlLiftTBxrpQ80l5HWAEnycY-ltlc_M');
 define('API_TELEGRAM','https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
-$channel = 'ایدی چنل
+$channel = ' @unknown_crack
 ';
 
 $json = file_get_contents('php://input');
@@ -36,7 +36,7 @@ function sendMessage($chat_id,$msg_text)
 if ($msg_text == '/start') 
 {
 sendAction($chat_id,'typing');
-sendMessage($chat_id,'Send Your Message ! @Moharak');
+sendMessage($chat_id,'Send Your Message ! ');
 }
 else
 {
